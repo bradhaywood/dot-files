@@ -1,0 +1,29 @@
+[user]
+	email = brad@perlpowered.com
+	name = Brad Haywood
+
+[core]
+        excludesfile = /home/brad/.gitignore_global
+        editor = vim
+
+[difftool "meld"]
+        cmd = meld \"$LOCAL\" \"$REMOTE\"
+        path =
+[mergetool "meld"]
+        cmd = meld \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+        trustExitCode = true
+
+[color]
+        ui = auto
+[alias]
+        lol = log --graph --decorate --relative-date --oneline
+        lg = log --graph --pretty=format:'%C(cyan)%h%Creset - %C(bold yellow)%d%Creset %s %C(blue)(%ar) %C(magenta)%an%Creset' --all
+        lives = !git-log-live
+        sitrep = status -sb
+        sr = status -sb
+        word = diff --word-diff
+	unstage = reset HEAD
+[credential]
+        helper = cache --timeout=3600
+[log]
+        abbrevCommit = true
