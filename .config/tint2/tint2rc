@@ -11,18 +11,18 @@
 #---------------------------------------------
 rounded = 3
 border_width = 0
-background_color = #9B2C32 20
+background_color = #ffffff 20
 border_color = #FFFFFF 20
 
 rounded = 3
 border_width = 0
-background_color = #ffffff 20
+#background_color = #ffffff 20
 border_color = #ffffff 20
 
 rounded = 6
 border_width = 0
 #background_color = #ffffff 0
-background_color = #000000 0
+#background_color = #000000 0
 border_color = #ffffff 0
 
 #---------------------------------------------
