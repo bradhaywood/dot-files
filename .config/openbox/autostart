@@ -7,12 +7,12 @@
 # Written by the Manjaro Team
 #
 
-setxkbmap -layout gb
+(sleep 1s && setxkbmap -layout gb)
 
 ## Compositing
-compton ~/.config/compton.conf &
-feh --bg-scale ~/.config/openbox/pictures/ZiszJ.jpg
-
+(sleep 2s && compton) &
+feh --bg-scale ~/.config/openbox/pictures/wallpaper.jpg
+(sleep 3s && google-chrome) &
 ## Panel
 (sleep 1s && tint2) &
 
